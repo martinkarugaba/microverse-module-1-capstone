@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>module 1 capstone</title>
-  <link rel="stylesheet" href="./dist/output.css">
-</head>
-<body>
-  <!--! NAVBAR -->
-  <header>
-    <nav class="border-2 border-green-700 flex flex-row-reverse justify-between items-center">
-      <!--* LOGO -->
-      <div class="logo invisible">
-        <!--<img src="" alt="logo">-->
-        <p>LOGO</p>
-      </div>
-      <!--* BARS -->
-      <div class="w-[40px] h-[35px] flex flex-col justify-between items-center">
-        <div class="h-[6px] w-[100%] bg-primary-black"></div>
-        <div class="h-[6px] w-[100%] bg-primary-black"></div>
-        <div class="h-[6px] w-[100%] bg-primary-black"></div>
-      </div>
-      <!--* MOBILE NAVBAR -->
-      <ul class="absolute top-0 left-0 border-2 border-red-700 w-full h-full hidden flex-col justify-around items-center">
-        <li>About</li>
-        <li>Program</li>
-        <li>Join</li>
-        <li>Sponsor</li>
-        <li>News</li>
-        <li>CC Campaign</li>
-      </ul>
-    </nav>
-  </header>
-  <!--! END NAVBAR -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>module 1 capstone</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--! NAVBAR -->
+    <header>
+      <nav
+        class="border-2 border-green-700 flex flex-row-reverse justify-between items-center"
+      >
+        <!--* LOGO -->
+        <div class="logo invisible">
+          <!--<img src="" alt="logo">-->
+          <p>LOGO</p>
+        </div>
+        <!--* BARS -->
+        <div
+          class="bars w-[40px] h-[35px] flex flex-col justify-between items-center"
+        >
+          <div class="h-[6px] w-[100%] bg-primary-black"></div>
+          <div class="h-[6px] w-[100%] bg-primary-black"></div>
+          <div class="h-[6px] w-[100%] bg-primary-black"></div>
+        </div>
+        <!--* NAV_LINKS -->
+        <section class="w-full nav-links h-full absolute top-0 left-0 hidden border-2 border-red-700">
+          <!--* close button -->
+          <img class="h-[20px] w-[20px] object-contain close-btn" src="./img/close.png" alt="close button">
+          <ul
+            class="flex flex-col justify-around items-center"
+          >
+            <li><a class="menu-item">About</a></li>
+            <li><a class="menu-item">Program</a></li>
+            <li><a class="menu-item">Join</a></li>
+            <li><a class="menu-item">Sponsor</a></li>
+            <li><a class="menu-item">News</a></li>
+            <li><a class="menu-item">CC Campaign</a></li>
+          </ul>
+        </section>
+        <!--* END NAV_LINKS -->
+      </nav>
+    </header>
+    <!--! END NAVBAR -->
 
-</body>
+    <script src="./navbar.js"></script>
+  </body>
 </html>
