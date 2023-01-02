@@ -1,3 +1,7 @@
 .navLinks__open{
   display: flex;
 }
+
+.menu-item{
+  color: #fafafa;
+}

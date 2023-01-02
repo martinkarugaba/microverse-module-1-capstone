@@ -11,3 +11,8 @@ closeButton.addEventListener('click', () => {
   navMenu.classList.remove('navLinks__open');
 });
 
+navMenuItems.forEach((item) => {
+  item.addEventListener('click', () => {
+    navMenu.classList.remove('navLinks__open');
+  })
+})

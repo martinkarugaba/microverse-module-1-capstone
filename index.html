@@ -15,7 +15,7 @@
     <!--! NAVBAR -->
     <header>
       <nav
-        class="border-2 border-green-700 flex flex-row-reverse justify-between items-center"
+        class="flex flex-row-reverse justify-between items-center"
       >
         <!--* LOGO -->
         <div class="logo invisible">
@@ -30,22 +30,22 @@
           <div class="h-[6px] w-[100%] bg-primary-black"></div>
           <div class="h-[6px] w-[100%] bg-primary-black"></div>
         </div>
-        <!--* NAV_LINKS -->
-        <section class="w-full nav-links h-full absolute top-0 left-0 hidden border-2 border-red-700">
+        <!--* NAV_MENU -->
+        <section class="w-full hidden flex-col nav-links h-full absolute top-0 left-0 bg-primary-black">
           <!--* close button -->
-          <img class="h-[20px] w-[20px] object-contain close-btn" src="./img/close.png" alt="close button">
+          <img class="h-[20px] w-[20px] mt-4 ml-4 object-contain close-btn" src="./img/close-button.png" alt="close button">
           <ul
-            class="flex flex-col justify-around items-center"
+            class="flex flex-col grow justify-around items-center w-full text-lg mb-4"
           >
-            <li><a class="menu-item">About</a></li>
-            <li><a class="menu-item">Program</a></li>
-            <li><a class="menu-item">Join</a></li>
-            <li><a class="menu-item">Sponsor</a></li>
-            <li><a class="menu-item">News</a></li>
-            <li><a class="menu-item">CC Campaign</a></li>
+            <li class="w-full grow"><a class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full">About</a></li>
+            <li class="w-full grow"><a class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full">Program</a></li>
+            <li class="w-full grow"><a class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full">Join</a></li>
+            <li class="w-full grow"><a class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full">Sponsor</a></li>
+            <li class="w-full grow"><a class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full">News</a></li>
+            <li class="w-full grow"><a class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full">CC Campaign</a></li>
           </ul>
         </section>
-        <!--* END NAV_LINKS -->
+        <!--* END NAV_MENU -->
       </nav>
     </header>
     <!--! END NAVBAR -->
