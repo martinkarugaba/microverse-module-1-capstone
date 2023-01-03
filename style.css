@@ -17,3 +17,7 @@
 .hero__section{
   background: url('./img/backgrounds/hero-background.jpg');
 }
+
+.project{
+  background: rgba(250, 250, 250,0.1);
+}
