@@ -14,25 +14,90 @@
   <body>
     <!--! NAVBAR -->
     <header>
-      <nav
-        class="flex flex-row-reverse justify-between items-center pt-6 pl-10"
+      <div
+        class="md:flex md:justify-end md:items-center gap-x-2 bg-primary-black md:px-[10rem] md:py-1"
       >
-        <!--* logo -->
-        <div class="logo invisible">
-          <!--<img src="" alt="logo">-->
-          <p>LOGO</p>
+        <img
+          class="h-[15px] cursor-pointer"
+          src="./img/icons/facebook.png"
+          alt="facebook icon"
+        />
+        <img
+          class="h-[18px] cursor-pointer"
+          src="./img/icons/twitter.png"
+          alt="twitter icon"
+        />
+        <button class="text-off-white text-sm">English</button>
+        <button class="text-off-white text-sm">My page</button>
+        <button class="text-off-white text-sm">Logout</button>
+      </div>
+      <nav
+        class="flex flex-row-reverse md:flex-row justify-between items-center pt-6 pl-10 md:px-[10rem] md:py-4"
+      >
+        <!--*------------------------------ logo -------------------------->
+        <div class="logo invisible md:visible">
+          <p>Mozilla <br>  Dev Summit</p>
         </div>
+
+        <!--*----------- desktop menu ----------->
+        <ul
+          class="flex justify-between items-center w-[70%] text-base text-primary-black h-[100%]"
+        >
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >About</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:bg-primary-orange items-center h-full"
+              >Program</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:bg-primary-orange items-center h-full"
+              >Join</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:bg-primary-orange items-center h-full"
+              >Sponsor</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:bg-primary-orange items-center h-full"
+              >News</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:bg-primary-orange items-center h-full"
+              >CC Campaign</a
+            >
+          </li>
+        </ul>
         <!--* bars -->
         <div
-          class="bars w-[40px] h-[35px] flex flex-col justify-between items-center"
+          class="bars md:hidden border border-red-700 w-[40px] h-[35px] flex flex-col justify-between items-center"
         >
           <div class="h-[6px] w-[100%] bg-primary-black"></div>
           <div class="h-[6px] w-[100%] bg-primary-black"></div>
           <div class="h-[6px] w-[100%] bg-primary-black"></div>
         </div>
-        <!--* NAV_MENU -->
+
+        <!--* mobile menu -->
         <section
-          class="w-full hidden flex-col nav-links h-full absolute top-0 left-0 bg-primary-black"
+          class="w-full hidden md:hidden flex-col nav-links h-full absolute top-0 left-0 bg-primary-black"
         >
           <!--* close_button -->
           <img
@@ -92,7 +157,7 @@
 
     <!--! HERO SECTION -->
     <section
-      class="hero__section zborder-2 -mt-[59px] pt-[8rem] px-[1.5rem] pb-[4rem] bg-hero-header"
+      class="hero__section zborder-2 -mt-[59px] md:mt-0 pt-[8rem] px-[1.5rem] pb-[4rem] md:px-[10rem] md:py-[5rem] bg-hero-header"
     >
       <p class="text-primary-orange text-base">
         Jump start your growth
@@ -125,14 +190,18 @@
     <section
       class="main-program flex flex-col justify-between items-center gap-y-8 bg-primary-black px-4 py-8"
     >
-      <header class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0">
+      <header
+        class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0"
+      >
         <h2 class="text-2xl text-off-white font-medium">
           Main Program
         </h2>
         <div class="w-[40px] h-[2px] bg-primary-orange mt-4"></div>
       </header>
 
-      <div class="main-programs-container flex flex-col justify-between items-center gap-y-4"></div>
+      <div
+        class="main-programs-container flex flex-col justify-between items-center gap-y-4"
+      ></div>
 
       <button
         class="px-6 py-6 font-medium bg-primary-orange text-off-white"
@@ -142,40 +211,65 @@
     </section>
 
     <!--! FEATURED SPEAKERS -->
-    <section class="px-4 py-8 h-auto">
-      <header class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0 ">
+    <section class="px-6 py-8 h-auto">
+      <header
+        class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0"
+      >
         <h2 class="text-2xl text-primary-black font-medium">
           Featured Speakers
         </h2>
         <div class="w-[40px] h-[2px] bg-primary-orange mt-4"></div>
       </header>
 
-      <section class="featured-speakers-section mt-[2rem] flex flex-col justify-between items-center gap-y-8">
-      </section>
+      <section
+        class="featured-speakers-section mt-[2rem] flex flex-col justify-between items-center gap-y-8"
+      ></section>
     </section>
 
     <!--! PARTNERS -->
     <section class="bg-primary-black px-4 py-8">
-       <header class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0 ">
-        <h2 class="text-2xl text-off-white font-medium">
-          Partner
-        </h2>
+      <header
+        class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0"
+      >
+        <h2 class="text-2xl text-off-white font-medium">Partner</h2>
         <div class="w-[40px] h-[2px] bg-primary-orange mt-4"></div>
       </header>
 
-      <div class="flex flex-col justify-center items-center gap-y-4 px-4 py-6">
+      <div
+        class="flex flex-col justify-center items-center gap-y-4 px-4 py-6"
+      >
         <div class="flex justify-center items-center gap-x-4">
-          <img class="w-[100px] h-[30px] object-contain" src="./img/partners/google.png" alt="google">
-          <img class="w-[100px] h-[30px] object-contain" src="./img/partners/shopify.png" alt="shopify">
-          <img class="w-[100px] h-[30px] object-contain" src="./img/partners/slack.png" alt="shopify">
+          <img
+            class="w-[100px] h-[30px] object-contain"
+            src="./img/partners/google.png"
+            alt="google"
+          />
+          <img
+            class="w-[100px] h-[30px] object-contain"
+            src="./img/partners/shopify.png"
+            alt="shopify"
+          />
+          <img
+            class="w-[100px] h-[30px] object-contain"
+            src="./img/partners/slack.png"
+            alt="shopify"
+          />
         </div>
         <div class="flex justify-center items-center gap-x-4">
-          <img class="w-[100px] h-[30px] object-contain" src="./img/partners/coinbase.png" alt="slack">
-          <img class="w-[100px] h-[30px] object-contain" src="./img/partners/dropbox.png" alt="shopify">
+          <img
+            class="w-[100px] h-[30px] object-contain"
+            src="./img/partners/coinbase.png"
+            alt="slack"
+          />
+          <img
+            class="w-[100px] h-[30px] object-contain"
+            src="./img/partners/dropbox.png"
+            alt="shopify"
+          />
         </div>
       </div>
-    </section>  
-    
+    </section>
+
     <!--! FOOTER -->
     <footer class="py-6 px-4">
       <div>
@@ -184,10 +278,8 @@
       </div>
     </footer>
 
-    <script  src="./js/navbar.js"></script>
+    <script src="./js/navbar.js"></script>
     <script src="./js/mainPrograms.js"></script>
     <script src="./js/featuredSpeakers.js"></script>
   </body>
 </html>
-
-
