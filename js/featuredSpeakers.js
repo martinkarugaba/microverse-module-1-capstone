@@ -63,16 +63,16 @@ featuredSpeakersList.forEach((speaker) => {
   const { name, jobTitle, img, about, chess } = speaker;
 
   featuredSpeakersSection.innerHTML += `
-    <article class='flex justify-between w-[100%] items-start gap-x-2 border border-red-700'>
+    <article class='featuredSpeaker w-[100%] flex justify-between items-center gap-x-4'>
       <div class='featuredSpeaker__img-container'>
         <img class='chess_board' src=${chess} alt='black chess board'>
         <img class= 'speaker' src=${img} alt=${name}/>
       </div>
-      <div class='w-[50%]'>
+      <div class='w-[60%]'>
         <h3 class='font-semibold'>${name}</h3>
         <p class='text-sm text-primary-orange'>${jobTitle}</p>
-        <div class="w-[40px] h-[2px] bg-primary-orange mt-4"></div>
-        <p class='text sm'>${about}</p>
+        <div class="w-[40px] h-[1px] bg-primary-orange mt-2"></div>
+        <p class='text-sm mt-2'>${about}</p>
       </div>
     </article>
   `;
