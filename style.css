@@ -17,6 +17,7 @@
 .hero__section{
   background: url('./img/backgrounds/hero-background.jpg');
   background-size: cover;
+  background-position: top;
 }
 
 .project{
