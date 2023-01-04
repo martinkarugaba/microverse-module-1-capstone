@@ -15,6 +15,12 @@ module.exports = {
         'hero-background':
           "url('./img/backgrounds/hero-background.jpg')",
       },
+      spacing: {
+        small: '3px',
+      },
+      fontFamily: {
+        lato: ['Lato', 'sans-serif'],
+      },
     },
   },
   plugins: [],

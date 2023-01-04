@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./dist/output.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body class="font-lato">
     <!--! NAVBAR -->
     <header>
       <div
@@ -188,9 +188,9 @@
       </p>
     </section>
 
-    <!--! MAIN PROGRAMS -->
+    <!--! MAIN PROGRAM -->
     <section
-      class="main-program flex flex-col justify-between items-center gap-y-8 bg-primary-black px-4 py-8"
+      class="main-program md:px-[12rem] md:py-[7rem] flex flex-col justify-between items-center gap-y-8 bg-primary-black px-4 py-8"
     >
       <header
         class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0"
@@ -201,19 +201,26 @@
         <div class="w-[40px] h-[2px] bg-primary-orange mt-4"></div>
       </header>
 
+      <!--* main programs wrapper -->
       <div
-        class="main-programs-container flex flex-col justify-between items-center gap-y-4"
+        class="main-programs-container flex flex-col md:flex-row md:mt-[2rem] md:gap-x-small justify-between items-center gap-y-4"
       ></div>
 
+      <!--* button -->
       <button
-        class="px-6 py-6 font-medium bg-primary-orange text-off-white"
+        class="px-6 py-6 font-medium md:hidden bg-primary-orange text-off-white"
       >
         Join CC Global Summit 2022
+      </button>
+      <button
+        class="px-6 py-6 font-medium hidden cursor-pointer md:block md:underline md:mt-[1rem] text-off-white"
+      >
+        SEE THE WHOLE PROGRAM
       </button>
     </section>
 
     <!--! FEATURED SPEAKERS -->
-    <section class="px-6 py-8 h-auto">
+    <section class="px-6 py-8 md:px-[12rem] md:py-[7rem] h-auto">
       <header
         class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0"
       >
@@ -223,8 +230,9 @@
         <div class="w-[40px] h-[2px] bg-primary-orange mt-4"></div>
       </header>
 
+      <!--* featured speakers wrapper -->
       <section
-        class="featured-speakers-section mt-[2rem] flex flex-col justify-between items-center gap-y-8"
+        class="featured-speakers-section mt-[2rem] flex flex-col md:flex-row flex-wrap justify-between items-center gap-y-8 md:gap-[1rem]"
       ></section>
     </section>
 

@@ -44,13 +44,13 @@ mainPrograms.forEach((item) => {
   const { icon, title, description } = item;
 
   mainProgramsSection.innerHTML += `
-    <div class='project flex justify-between items-center w-[100%] gap-x-2 h-auto px-4 py-6'>
-      <div class='w-[40%] h-[100%] flex justify-start items-center'>
+    <div class='project flex md:flex-col justify-between items-center w-[100%] gap-x-2 h-auto px-4 py-6'>
+      <div class='w-[40%] md:w-[100%] h-[100%] flex md:flex-col justify-start items-center'>
         <img class="h-[40px] w-[40px] object-contain" src=${icon} alt=${name}/>
-        <h3 class='text-base font-semibold text-primary-orange ml-[5px]'>${title}</h3>
+        <h3 class='text-lg md:text-xl font-bold md:font-medium text-primary-orange ml-[5px] md:ml-0 md:mt-4'>${title}</h3>
       </div>
-      <div class='grow w-[60%] h-[100%]'>
-        <p class='justify-self-end text-sm leading-0 text-off-white'>${description}</p>
+      <div class='grow w-[60%] md:w-[100%] h-[100%] md:mt-4'>
+        <p class='justify-self-end text-sm md:text-base md:text-center leading-0 md:leading-[1.8rem] text-off-white'>${description}</p>
       </div>
     </div>
   `;
