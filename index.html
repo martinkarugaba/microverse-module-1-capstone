@@ -32,11 +32,14 @@
         <button class="text-off-white text-sm">Logout</button>
       </div>
       <nav
-        class="flex flex-row-reverse md:flex-row justify-between items-center pt-6 pl-10 md:px-[10rem] md:py-4"
+        class="flex flex-row-reverse md:flex-row md:z-10 md:shadow-2xl justify-between items-center pt-6 pl-10 md:px-[10rem] md:py-4"
       >
-        <!--*------------------------------ logo -------------------------->
-        <div class="logo invisible md:visible">
-          <p>Mozilla <br>  Dev Summit</p>
+        <!--*---------------------- logo ----------------------->
+        <div class="logo invisible md:visible cursor-pointer">
+          <p class="font-semibold text-primary-black text-xl leading-5">
+            Mozilla <br />
+            Dev Summit
+          </p>
         </div>
 
         <!--*----------- desktop menu ----------->
@@ -53,35 +56,35 @@
           <li class="w-full grow">
             <a
               href="#"
-              class="menu-item flex justify-center hover:bg-primary-orange items-center h-full"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
               >Program</a
             >
           </li>
           <li class="w-full grow">
             <a
               href="#"
-              class="menu-item flex justify-center hover:bg-primary-orange items-center h-full"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
               >Join</a
             >
           </li>
           <li class="w-full grow">
             <a
               href="#"
-              class="menu-item flex justify-center hover:bg-primary-orange items-center h-full"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
               >Sponsor</a
             >
           </li>
           <li class="w-full grow">
             <a
               href="#"
-              class="menu-item flex justify-center hover:bg-primary-orange items-center h-full"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
               >News</a
             >
           </li>
           <li class="w-full grow">
             <a
               href="#"
-              class="menu-item flex justify-center hover:bg-primary-orange items-center h-full"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
               >CC Campaign</a
             >
           </li>
@@ -157,21 +160,20 @@
 
     <!--! HERO SECTION -->
     <section
-      class="hero__section zborder-2 -mt-[59px] md:mt-0 pt-[8rem] px-[1.5rem] pb-[4rem] md:px-[10rem] md:py-[5rem] bg-hero-header"
+      class="hero__section md:z-5 -mt-[59px] md:mt-0 pt-[8rem] px-[1.5rem] pb-[4rem] md:px-[10rem] md:py-[7rem]"
     >
-      <p class="text-primary-orange text-base">
-        Jump start your growth
-      </p>
       <h1
-        class="text-primary-orange hero-header uppercase text-3xl font-bold leading-8"
+        class="text-primary-orange hero-header uppercase text-3xl md:text-[3.5rem] md:leading-[3.7rem] font-bold leading-8"
       >
-        Mozilla dev summit March 2023
+        Mozilla global dev <br class="hidden md:inline" />
+        summit March <br class="hidden md:inline" />
+        2023
       </h1>
 
       <div
-        class="bg-gray-100 border-2 border-[#fafafa] px-4 py-4 my-6"
+        class="bg-gray-100 border-2 border-[#fafafa] px-4 py-4 my-6 md:w-[500px]"
       >
-        <p class="text-sm text-gray-600 leading-6">
+        <p class="text-sm md:text-base text-gray-600 leading-6">
           Get the most accurate leads, sales people training and
           conversions, tools and more — all within the same one
           billing.
