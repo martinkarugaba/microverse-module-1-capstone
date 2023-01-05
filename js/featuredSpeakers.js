@@ -6,51 +6,51 @@ const featuredSpeakersList = [
   {
     name: 'Elon Musk',
     jobTitle: 'CEO Twitter',
-    img: './img/featured_speakers/man.jpg',
+    img: './img/featured_speakers/man_1.jpg',
     chess: '/img/featured_speakers/black_chess_board.gif',
     about:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
   },
   {
-    name: 'Elon Musk',
-    jobTitle: 'CEO Twitter',
-    img: './img/featured_speakers/man.jpg',
-    chess: '/img/featured_speakers/black_chess_board.gif',
-
-    about:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-  },
-  {
-    name: 'Elon Musk',
-    jobTitle: 'CEO Twitter',
-    img: './img/featured_speakers/man.jpg',
+    name: 'Danny Thompson',
+    jobTitle: 'Senior Software Engineer @Google',
+    img: './img/featured_speakers/man_2.jpg',
     chess: '/img/featured_speakers/black_chess_board.gif',
 
     about:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
   },
   {
-    name: 'Elon Musk',
-    jobTitle: 'CEO Twitter',
-    img: './img/featured_speakers/man.jpg',
+    name: 'Olawale Ayo',
+    jobTitle: 'Product Manager @YouTube',
+    img: './img/featured_speakers/man_3.jpg',
     chess: '/img/featured_speakers/black_chess_board.gif',
 
     about:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
   },
   {
-    name: 'Elon Musk',
-    jobTitle: 'CEO Twitter',
-    img: './img/featured_speakers/man.jpg',
+    name: 'Brad Traversy',
+    jobTitle: 'Dev Rel @GitHub',
+    img: './img/featured_speakers/man_4.jpg',
     chess: '/img/featured_speakers/black_chess_board.gif',
 
     about:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
   },
   {
-    name: 'Elon Musk',
-    jobTitle: 'CEO Twitter',
-    img: './img/featured_speakers/man.jpg',
+    name: 'Net Ninja',
+    jobTitle: 'Product Manager @Andela Kenya',
+    img: './img/featured_speakers/man_5.jpg',
+    chess: '/img/featured_speakers/black_chess_board.gif',
+
+    about:
+      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+  },
+  {
+    name: 'Brandon Goldman',
+    jobTitle: 'UX Engineer @Microsoft',
+    img: './img/featured_speakers/man_6.jpg',
     chess: '/img/featured_speakers/black_chess_board.gif',
 
     about:

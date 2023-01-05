@@ -803,6 +803,11 @@ video {
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
+.border-primary-orange{
+  --tw-border-opacity: 1;
+  border-color: rgb(236 82 66 / var(--tw-border-opacity));
+}
+
 .bg-primary-black{
   --tw-bg-opacity: 1;
   background-color: rgb(39 42 49 / var(--tw-bg-opacity));
@@ -850,6 +855,18 @@ video {
 .object-contain{
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.p-4{
+  padding: 1rem;
+}
+
+.p-2{
+  padding: 0.5rem;
+}
+
+.p-1{
+  padding: 0.25rem;
 }
 
 .px-\[1\.5rem\]{
@@ -1307,6 +1324,10 @@ video {
   .md\:gap-x-6{
     -moz-column-gap: 1.5rem;
          column-gap: 1.5rem;
+  }
+
+  .md\:border-4{
+    border-width: 4px;
   }
 
   .md\:bg-off-white{
