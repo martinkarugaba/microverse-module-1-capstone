@@ -4,36 +4,36 @@ const mainProgramsSection = document.querySelector(
 
 const mainPrograms = [
   {
-    icon: './img/web-design.png',
-    name: '',
+    icon: './img/icons/new-products.png',
+    name: 'web design',
     title: 'Lecture',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
-    icon: './img/web-design.png',
-    name: '',
+    icon: './img/icons/app-development.png',
+    name: 'app development',
     title: 'People',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
-    icon: './img/web-design.png',
-    name: '',
+    icon: './img/icons/coding.png',
+    name: 'coding',
     title: 'Forum',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
-    icon: './img/web-design.png',
-    name: '',
+    icon: './img/icons/coder.png',
+    name: 'coder',
     title: 'Work',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
-    icon: './img/web-design.png',
-    name: '',
+    icon: './img/icons/desktop.png',
+    name: 'desktop',
     title: 'Ignite',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
