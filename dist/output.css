@@ -564,6 +564,10 @@ video {
   margin-left: 5px;
 }
 
+.ml-\[10px\]{
+  margin-left: 10px;
+}
+
 .flex{
   display: flex;
 }

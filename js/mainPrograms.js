@@ -47,10 +47,10 @@ mainPrograms.forEach((item) => {
     <div class='project flex md:flex-col justify-between items-center w-[100%] gap-x-2 h-auto px-4 py-6'>
       <div class='w-[40%] md:w-[100%] h-[100%] flex md:flex-col justify-start items-center'>
         <img class="h-[40px] w-[40px] object-contain" src=${icon} alt=${name}/>
-        <h3 class='text-lg md:text-xl font-bold md:font-medium text-primary-orange ml-[5px] md:ml-0 md:mt-4'>${title}</h3>
+        <h3 class='text-lg md:text-xl font-bold md:font-medium text-primary-orange ml-[10px] md:ml-0 md:mt-4'>${title}</h3>
       </div>
       <div class='grow w-[60%] md:w-[100%] h-[100%] md:mt-4'>
-        <p class='justify-self-end text-sm md:text-base md:text-center leading-0 md:leading-[1.8rem] text-off-white'>${description}</p>
+        <p class='justify-self-end text-base md:text-base md:text-center leading-0 md:leading-[1.8rem] text-off-white'>${description}</p>
       </div>
     </div>
   `;
