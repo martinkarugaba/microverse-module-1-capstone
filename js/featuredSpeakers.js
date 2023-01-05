@@ -69,10 +69,10 @@ featuredSpeakersList.forEach((speaker) => {
         <img class= 'speaker' src=${img} alt=${name}/>
       </div>
       <div class='w-[60%]'>
-        <h3 class='font-semibold md:text-lg'>${name}</h3>
-        <p class='text-sm text-primary-orange italic'>${jobTitle}</p>
+        <h3 class='font-medium text-lg text-primary-black md:text-lg'>${name}</h3>
+        <p class='text-sm text-primary-orange font-semibold italic'>${jobTitle}</p>
         <div class="w-[30px] h-[2px] bg-primary-grey mt-2"></div>
-        <p class='text-base md:text-base mt-2'>${about}</p>
+        <p class='text-base text-gray-500 md:text-base mt-2'>${about}</p>
       </div>
     </article>
   `;
