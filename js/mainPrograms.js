@@ -1,39 +1,39 @@
 const mainProgramsSection = document.querySelector(
-  '.main-programs-container'
+  '.main-programs-container',
 );
 
 const mainPrograms = [
   {
     icon: './img/icons/new-products.png',
-    name: 'web design',
+    program: 'web design',
     title: 'Lecture',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     icon: './img/icons/app-development.png',
-    name: 'app development',
+    program: 'app development',
     title: 'People',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     icon: './img/icons/coding.png',
-    name: 'coding',
+    program: 'coding',
     title: 'Forum',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     icon: './img/icons/coder.png',
-    name: 'coder',
+    program: 'coder',
     title: 'Work',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     icon: './img/icons/desktop.png',
-    name: 'desktop',
+    program: 'desktop',
     title: 'Ignite',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
@@ -41,12 +41,14 @@ const mainPrograms = [
 ];
 
 mainPrograms.forEach((item) => {
-  const { icon, title, description } = item;
+  const {
+    icon, title, description, program,
+  } = item;
 
   mainProgramsSection.innerHTML += `
     <div class='project flex md:flex-col justify-between items-center w-[100%] gap-x-2 h-auto px-4 py-6'>
       <div class='w-[40%] md:w-[100%] h-[100%] flex md:flex-col justify-start items-center'>
-        <img class="h-[40px] w-[40px] object-contain" src=${icon} alt=${name}/>
+        <img class="h-[40px] w-[40px] object-contain" src=${icon} alt=${program}/>
         <h3 class='text-lg md:text-xl font-bold md:font-medium text-primary-orange ml-[10px] md:ml-0 md:mt-4'>${title}</h3>
       </div>
       <div class='grow w-[60%] md:w-[100%] h-[100%] md:mt-4'>

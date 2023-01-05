@@ -1,5 +1,5 @@
 const featuredSpeakersSection = document.querySelector(
-  '.featured-speakers-section'
+  '.featured_speakers',
 );
 
 const featuredSpeakersList = [
@@ -58,9 +58,10 @@ const featuredSpeakersList = [
   },
 ];
 
-
 featuredSpeakersList.forEach((speaker) => {
-  const { name, jobTitle, img, about, chess } = speaker;
+  const {
+    name, jobTitle, img, about, chess,
+  } = speaker;
 
   featuredSpeakersSection.innerHTML += `
     <article class='featuredSpeaker w-[100%] md:w-[45%] md:gap-x-[10px] flex justify-between items-center gap-x-4'>
@@ -76,5 +77,4 @@ featuredSpeakersList.forEach((speaker) => {
       </div>
     </article>
   `;
-})
-
+});

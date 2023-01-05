@@ -14,5 +14,5 @@ closeButton.addEventListener('click', () => {
 navMenuItems.forEach((item) => {
   item.addEventListener('click', () => {
     navMenu.classList.remove('navLinks__open');
-  })
-})
+  });
+});
