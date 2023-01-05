@@ -742,6 +742,14 @@ video {
   border-width: 1px;
 }
 
+.border-b{
+  border-bottom-width: 1px;
+}
+
+.border-t{
+  border-top-width: 1px;
+}
+
 .border-\[\#fafafa\]{
   --tw-border-opacity: 1;
   border-color: rgb(250 250 250 / var(--tw-border-opacity));
@@ -755,6 +763,31 @@ video {
 .border-green-700{
   --tw-border-opacity: 1;
   border-color: rgb(21 128 61 / var(--tw-border-opacity));
+}
+
+.border-red-700{
+  --tw-border-opacity: 1;
+  border-color: rgb(185 28 28 / var(--tw-border-opacity));
+}
+
+.border-slate-700{
+  --tw-border-opacity: 1;
+  border-color: rgb(51 65 85 / var(--tw-border-opacity));
+}
+
+.border-slate-100{
+  --tw-border-opacity: 1;
+  border-color: rgb(241 245 249 / var(--tw-border-opacity));
+}
+
+.border-slate-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(226 232 240 / var(--tw-border-opacity));
+}
+
+.border-gray-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
 .bg-primary-black{
@@ -775,6 +808,26 @@ video {
 .bg-primary-grey{
   --tw-bg-opacity: 1;
   background-color: rgb(211 211 211 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.bg-slate-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
+.bg-slate-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .bg-conference-1{
@@ -816,6 +869,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-\[10rem\]{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
 .pt-6{
   padding-top: 1.5rem;
 }
@@ -830,6 +888,10 @@ video {
 
 .pb-\[4rem\]{
   padding-bottom: 4rem;
+}
+
+.pt-\[2rem\]{
+  padding-top: 2rem;
 }
 
 .text-center{
@@ -989,6 +1051,26 @@ video {
     margin-top: 1rem;
   }
 
+  .md\:mt-\[\]{
+    margin-top: ;
+  }
+
+  .md\:mt-\[4rem\]{
+    margin-top: 4rem;
+  }
+
+  .md\:mt-\[3rem\]{
+    margin-top: 3rem;
+  }
+
+  .md\:mt-8{
+    margin-top: 2rem;
+  }
+
+  .md\:mt-6{
+    margin-top: 1.5rem;
+  }
+
   .md\:block{
     display: block;
   }
@@ -1017,6 +1099,46 @@ video {
     width: 100%;
   }
 
+  .md\:w-\[\]{
+    width: ;
+  }
+
+  .md\:w-\[200ch\]{
+    width: 200ch;
+  }
+
+  .md\:w-\[300ch\]{
+    width: 300ch;
+  }
+
+  .md\:w-\[50ch\]{
+    width: 50ch;
+  }
+
+  .md\:w-\[30ch\]{
+    width: 30ch;
+  }
+
+  .md\:w-\[100ch\]{
+    width: 100ch;
+  }
+
+  .md\:w-\[500\]{
+    width: 500;
+  }
+
+  .md\:w-\[5\]{
+    width: 5;
+  }
+
+  .md\:w-\[50\%\]{
+    width: 50%;
+  }
+
+  .md\:w-\[60\%\]{
+    width: 60%;
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
@@ -1031,6 +1153,14 @@ video {
 
   .md\:justify-end{
     justify-content: flex-end;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
+  }
+
+  .md\:justify-between{
+    justify-content: space-between;
   }
 
   .md\:gap-\[1rem\]{
@@ -1086,6 +1216,47 @@ video {
     padding-right: 12rem;
   }
 
+  .md\:px-\[20rem\]{
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  .md\:py-\[\]{
+    padding-top: ;
+    padding-bottom: ;
+  }
+
+  .md\:py-\[5rem\]{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:py-\[8rem\]{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .md\:py-\[6rem\]{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .md\:pt-\[\]{
+    padding-top: ;
+  }
+
+  .md\:pt-\[2rem\]{
+    padding-top: 2rem;
+  }
+
+  .md\:pt-\[4rem\]{
+    padding-top: 4rem;
+  }
+
+  .md\:pt-\[5rem\]{
+    padding-top: 5rem;
+  }
+
   .md\:text-center{
     text-align: center;
   }
@@ -1109,6 +1280,16 @@ video {
     line-height: 1.75rem;
   }
 
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .md\:font-black{
     font-weight: 900;
   }
@@ -1123,6 +1304,10 @@ video {
 
   .md\:leading-\[1\.8rem\]{
     line-height: 1.8rem;
+  }
+
+  .md\:text-\[4xl\]{
+    color: 4xl;
   }
 
   .md\:underline{
