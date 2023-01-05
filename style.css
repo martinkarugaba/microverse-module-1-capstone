@@ -14,23 +14,23 @@
   -webkit-text-fill-color: transparent;
 }
 
-.hero__section{
+.hero__section {
   background: url('./img/backgrounds/hero-background.jpg');
   background-size: cover;
   background-position: top;
 }
 
-.project{
-  background: rgba(250, 250, 250,0.1);
+.project {
+  background: rgba(250, 250, 250, 0.1);
 }
 
-.featuredSpeaker__img-container{
+.featuredSpeaker__img-container {
   position: relative;
   height: 130px;
   width: 145px;
 }
 
-.featuredSpeaker__img-container .chess_board{
+.featuredSpeaker__img-container .chess_board {
   position: absolute;
   height: 60px;
   width: 60px;
@@ -38,11 +38,25 @@
   left: 0;
 }
 
-.featuredSpeaker__img-container .speaker{
+.featuredSpeaker__img-container .speaker {
   width: 120px;
   height: 120px;
   position: absolute;
   bottom: 0;
   right: 0;
   object-fit: cover;
+}
+
+.past_summit_one {
+  background: url(./img/about_page/mgds_2021.jpg);
+  background-size: cover;
+}
+
+.past_summit_two {
+  background: url(./img/about_page/mgds_2022.jpg);
+  background-size: cover;
+}
+
+.past_summit_info {
+  background: rgba(236, 82, 66, 0.8);
 }
