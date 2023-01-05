@@ -72,7 +72,7 @@ featuredSpeakersList.forEach((speaker) => {
         <h3 class='font-semibold md:text-lg'>${name}</h3>
         <p class='text-sm text-primary-orange italic'>${jobTitle}</p>
         <div class="w-[30px] h-[2px] bg-primary-grey mt-2"></div>
-        <p class='text-sm md:text-base mt-2'>${about}</p>
+        <p class='text-base md:text-base mt-2'>${about}</p>
       </div>
     </article>
   `;

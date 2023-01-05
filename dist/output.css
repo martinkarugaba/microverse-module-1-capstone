@@ -840,6 +840,41 @@ video {
   padding-bottom: 4rem;
 }
 
+.px-\[rem\]{
+  padding-left: rem;
+  padding-right: rem;
+}
+
+.px-\[2rem\]{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-\[\]{
+  padding-left: ;
+  padding-right: ;
+}
+
+.px-\[1\.\]{
+  padding-left: 1.;
+  padding-right: 1.;
+}
+
+.px-\[1\.r\]{
+  padding-left: 1.r;
+  padding-right: 1.r;
+}
+
+.px-\[1\.re\]{
+  padding-left: 1.re;
+  padding-right: 1.re;
+}
+
+.px-\[1\.rem\]{
+  padding-left: 1.rem;
+  padding-right: 1.rem;
+}
+
 .pt-6{
   padding-top: 1.5rem;
 }
