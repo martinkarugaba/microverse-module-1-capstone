@@ -880,6 +880,11 @@ video {
   padding-right: 1rem;
 }
 
+.py-\[5rem\]{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pt-6{
   padding-top: 1.5rem;
 }
@@ -1261,6 +1266,11 @@ video {
   .md\:py-\[6rem\]{
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .md\:py-\[5rem\]{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .md\:pt-\[5rem\]{
