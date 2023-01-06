@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>About mozilla dev summit 2023</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="font-lato">
+    <!--! NAVBAR -->
+    <header>
+      <div
+        class="hidden md:flex md:justify-end md:items-center gap-x-2 bg-primary-black md:px-[10rem] md:py-1"
+      >
+        <img
+          class="h-[15px] cursor-pointer"
+          src="./img/icons/facebook.png"
+          alt="facebook icon"
+        />
+        <img
+          class="h-[18px] cursor-pointer"
+          src="./img/icons/twitter.png"
+          alt="twitter icon"
+        />
+        <button class="text-off-white text-sm">English</button>
+        <button class="text-off-white text-sm">My page</button>
+        <button class="text-off-white text-sm">Logout</button>
+      </div>
+      <nav
+        class="flex flex-row-reverse md:flex-row md:z-10 md:shadow-2xl justify-between items-center pt-6 pl-10 md:px-[10rem] md:py-4"
+      >
+        <!--*----------------- logo --------------------->
+        <div class="logo invisible md:visible cursor-pointer">
+          <a href="./index.html">
+            <p
+              class="font-semibold text-primary-black text-xl leading-5"
+            >
+              Mozilla <br />
+              Dev Summit
+            </p>
+          </a>
+        </div>
+
+        <!--*----------- desktop menu ----------->
+        <ul
+          class="hidden md:flex justify-between items-center w-[70%] text-base text-primary-black h-[100%]"
+        >
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >About</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >Program</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >Join</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >Sponsor</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >News</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >CC Campaign</a
+            >
+          </li>
+        </ul>
+        <!--* bars -->
+        <div
+          class="bars md:hidden w-[40px] h-[35px] flex flex-col justify-between items-center"
+        >
+          <div
+            class="h-[6px] rounded-md w-[100%] bg-primary-black"
+          ></div>
+          <div
+            class="h-[6px] rounded-md w-[100%] bg-primary-black"
+          ></div>
+          <div
+            class="h-[6px] rounded-md w-[100%] bg-primary-black"
+          ></div>
+        </div>
+
+        <!--* mobile menu -->
+        <section
+          class="w-full hidden md:hidden flex-col nav-links h-full absolute top-0 left-0 bg-primary-black"
+        >
+          <!--* close_button -->
+          <img
+            class="w-[30px] h-[30px] mt-[2rem] ml-[2rem] object-contain close-btn"
+            src="./img/close-button.png"
+            alt="close button"
+          />
+          <ul
+            class="flex flex-col grow justify-around items-center w-full text-lg text-off-white mb-4"
+          >
+            <li class="w-full grow">
+              <a
+                href="./index.html"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >Home</a
+              >
+            </li>
+            <li class="w-full grow">
+              <a
+                href="./about.html"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >About</a
+              >
+            </li>
+            <li class="w-full grow">
+              <a
+                href="#"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >Program</a
+              >
+            </li>
+            <li class="w-full grow">
+              <a
+                href="#"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >Join</a
+              >
+            </li>
+            <li class="w-full grow">
+              <a
+                href="#"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >Sponsor</a
+              >
+            </li>
+            <li class="w-full grow">
+              <a
+                href="#"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >News</a
+              >
+            </li>
+           
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+    <!--! ABOUT_HERO_SECTION -->
+    <section
+      class="hero__section md:z-5 -mt-[59px] md:mt-0 px-[1.5rem] py-[4rem] pt-[8rem] md:px-[10rem] md:py-[7rem] md:pt-[5rem] md:flex md:flex-col md:justify-center md:items-center"
+    >
+      <h1
+        class="text-primary-orange text-center hero-header uppercase text-3xl md:text-[3.5rem] md:leading-[3.7rem] font-extrabold md:font-black leading-8"
+      >
+        Mozilla global dev <br class="hidden md:inline" />
+        summit March <br />
+        2023
+      </h1>
+
+      <div
+        class="bg-gray-100 md:bg-off-white border-2 border-slate-100 px-4 py-4 my-6 md:w-[80%] max-w-4xl"
+      >
+        <p
+          class="text-base md:text-base text-center text-gray-600 leading-8 md:leading-8"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus, rerum veritatis. Minima nesciunt est
+          quisquam dolorem, tempora ea inventore veritatis fugiat.
+          Reiciendis similique eius neque saepe ratione, ipsam quos
+          cumque?
+        </p>
+        <p
+          class="text-base md:text-base text-center text-gray-600 leading-8 md:leading-9"
+        >
+          Get the most accurate leads, sales people training and
+          conversions, tools and more — all within the same one
+          billing. Lorem, ipsum dolor sit amet consectetur adipisicing
+          elit. Nam illum atque sequi optio explicabo itaque
+          consequuntur, fugiat minus eveniet enim dolor, obcaecati ea
+          qui excepturi praesentium ex nulla deserunt cumque!
+        </p>
+      </div>
+
+      <p
+        class="text-sm md:text-base text-center md:w-[50ch] text-gray-600 leading-8"
+      >
+        Get the most accurate leads, sales people training and
+        conversions, tools and more — all within the same one billing.
+        Please contact us at <br />
+        <strong class="underline"
+          >mozilladevsummit2023@mozilla.org</strong
+        >
+      </p>
+    </section>
+
+    <!--! ABOUT_MORE_INFO -->
+    <section
+      class="py-[5rem] px-[1.5rem] md:flex md:flex-col md:justify-between md:items-center md:px-[10rem] md:py-[6rem] border-t border-b border-slate-200"
+    >
+      <header
+        class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0"
+      >
+        <h2
+          class="text-2xl md:text-3xl text-primary-black font-semibold text-center"
+        >
+          Mozilla dev summit 2023
+        </h2>
+        <div
+          class="w-[40px] h-[2px] bg-primary-orange mt-2 md:mt-6"
+        ></div>
+      </header>
+      <p
+        class="text-base md:text-base text-center text-gray-600 mt-4 md:w-[100ch] leading-8 md:leading-8 md:mt-[3rem]"
+      >
+        Get the most accurate leads, sales people training and
+        conversions, tools and more — all within the same one billing.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Commodi neque labore nobis, aliquid tenetur eaque voluptatibus
+        suscipit recusandae, ratione excepturi corrupti quaerat iste
+        modi sint ipsum quas, distinctio ea id.
+      </p>
+      <div
+        class="border border-gray-200 md:w-[60%] bg-slate-100 flex justify-center items-center py-6 px-4 mt-[2rem] md:mt-[3rem]"
+      >
+        <img class="h-[200px]" src="./img/logo.png" alt="" />
+      </div>
+    </section>
+
+    <!--! ABOUT_PAST_GLOBAL_SUMMITS -->
+    <section
+      class="px-[1.5rem] py-[5rem] md:px-[10rem] md:py-[6rem] md:flex md:flex-col md:justify-center md:items-center"
+    >
+      <header
+        class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0"
+      >
+        <h2
+          class="text-2xl text-primary-black font-semibold text-center"
+        >
+          See the past mozilla dev global summits
+        </h2>
+        <div
+          class="w-[40px] h-[2px] bg-primary-orange mt-2 md:mt-6"
+        ></div>
+      </header>
+      <p
+        class="text-base md:text-base text-center text-gray-600 md:w-[70ch] mt-4 leading-8 md:leading-8"
+      >
+        Get the most accurate leads, sales people training and
+        conversions. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Voluptatibus sequi alias, dolor qui suscipit
+        ex dolore ipsam delectus quibusdam maiores! Enim eligendi
+        beatae excepturi quod ipsa iusto, reprehenderit vero
+        architecto.
+      </p>
+
+      <div
+        class="flex flex-col md:flex-row md:justify-center md:items-center gap-y-4 mt-[2rem] md:mt-[3rem] md:gap-x-6"
+      >
+        <!--* event_1 -->
+        <div
+          class="past_summit_one w-[100%] md:w-[450px] md:cursor-pointer h-[200px] md:h-[230px]"
+        >
+          <div
+            class="past_summit_info h-[100%] w-[100%] flex justify-center items-center"
+          >
+            <div class="text-center text-white">
+              <h3 class="font-semibold text-4xl">2021</h3>
+              <p class="text-base font-medium capitalize">
+                mozilla global dev summit <br />
+                Carlifornia
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--* event_2 -->
+        <div
+          class="past_summit_two w-[100%] md:w-[450px] md:cursor-pointer md:grow h-[200px] md:h-[230px]"
+        >
+          <div
+            class="past_summit_info h-[100%] w-[100%] flex justify-center items-center"
+          >
+            <div class="text-center text-white">
+              <h3 class="font-semibold text-4xl">2022</h3>
+              <p class="text-base font-medium capitalize">
+                mozilla global dev summit <br />
+                South Africa
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--! FOOTER -->
+    <footer
+      class="py-[4rem] px-[1.5rem] flex justify-between items-end md:px-[10rem] md:py-[5rem] bg-primary-black text-off-white"
+    >
+      <div class="font-semibold">
+        <p>Mozilla dev summit <br> 2023</p>
+      </div>
+      <div>
+        <p>&copy; Dev team</p>
+        <p>All rights reserved</p>
+      </div>
+    </footer>
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>

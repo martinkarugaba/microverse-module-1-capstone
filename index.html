@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>module 1 capstone</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="font-lato">
+    <!--! NAVBAR -->
+    <header>
+      <div
+        class="hidden md:flex md:justify-end md:items-center gap-x-2 bg-primary-black md:px-[10rem] md:py-1"
+      >
+        <img
+          class="h-[15px] cursor-pointer"
+          src="./img/icons/facebook.png"
+          alt="facebook icon"
+        />
+        <img
+          class="h-[18px] cursor-pointer"
+          src="./img/icons/twitter.png"
+          alt="twitter icon"
+        />
+        <button class="text-off-white text-sm">English</button>
+        <button class="text-off-white text-sm">My page</button>
+        <button class="text-off-white text-sm">Logout</button>
+      </div>
+      <nav
+        class="flex flex-row-reverse md:flex-row md:z-10 md:shadow-2xl justify-between items-center pt-6 pl-10 md:px-[10rem] md:py-4"
+      >
+        <!--*----------------- logo --------------------->
+        <div class="logo invisible md:visible cursor-pointer">
+          <a href="./index.html">
+            <p
+              class="font-semibold text-primary-black text-xl leading-5"
+            >
+              Mozilla <br />
+              Dev Summit
+            </p>
+          </a>
+        </div>
+
+        <!--*----------- desktop menu ----------->
+        <ul
+          class="hidden md:flex justify-between items-center w-[70%] text-base text-primary-black h-[100%]"
+        >
+          <li class="w-full grow">
+            <a
+              href="./about.html"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >About</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >Program</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >Join</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >Sponsor</a
+            >
+          </li>
+          <li class="w-full grow">
+            <a
+              href="#"
+              class="menu-item flex justify-center hover:text-primary-orange items-center h-full"
+              >News</a
+            >
+          </li>
+          <li class="w-full grow md:border-4 border-primary-orange p-1 cursor-pointer">
+            <a
+              href="#"
+              class="menu-item flex justify-center text-primary-orange font-semibold items-center h-full"
+              >CC Campaign</a
+            >
+          </li>
+        </ul>
+        <!--* bars -->
+        <div
+          class="bars md:hidden w-[40px] h-[35px] flex flex-col justify-between items-center"
+        >
+          <div
+            class="h-[6px] rounded-md w-[100%] bg-primary-black"
+          ></div>
+          <div
+            class="h-[6px] rounded-md w-[100%] bg-primary-black"
+          ></div>
+          <div
+            class="h-[6px] rounded-md w-[100%] bg-primary-black"
+          ></div>
+        </div>
+
+        <!--* mobile menu -->
+        <section
+          class="w-full hidden md:hidden flex-col nav-links h-full absolute top-0 left-0 bg-primary-black"
+        >
+          <!--* close_button -->
+          <img
+            class="w-[30px] h-[30px] mt-[2rem] ml-[2rem] object-contain close-btn"
+            src="./img/close-button.png"
+            alt="close button"
+          />
+          <ul
+            class="flex flex-col grow justify-around items-center w-full text-lg text-off-white mb-4"
+          >
+            <li class="w-full grow">
+              <a
+                href="./index.html"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >Home</a
+              >
+            </li>
+            <li class="w-full grow">
+              <a
+                href="./about.html"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >About</a
+              >
+            </li>
+            <li class="w-full grow">
+              <a
+                href="#"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >Program</a
+              >
+            </li>
+            <li class="w-full grow">
+              <a
+                href="#"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >Join</a
+              >
+            </li>
+            <li class="w-full grow">
+              <a
+                href="#"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >Sponsor</a
+              >
+            </li>
+            <li class="w-full grow">
+              <a
+                href="#"
+                class="menu-item flex justify-center hover:bg-primary-orange hover:text-primary-black items-center h-full"
+                >CC Campaign</a
+              >
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+    <!--! HERO SECTION -->
+    <section
+      class="hero__section md:z-5 -mt-[59px] md:mt-0 pt-[8rem] px-[1.5rem] pb-[4rem] md:px-[10rem] md:py-[7rem]"
+    >
+      <h1
+        class="text-primary-orange hero-header uppercase text-3xl md:text-[3.5rem] md:leading-[3.7rem] font-extrabold md:font-black leading-8"
+      >
+        Mozilla global dev <br class="hidden md:inline" />
+        summit March <br />
+        2023
+      </h1>
+
+      <div
+        class="bg-gray-100 border-2 border-[#fafafa] px-4 py-4 my-6 md:w-[500px]"
+      >
+        <p class="text-base md:text-base text-gray-600 leading-6">
+          Get the most accurate leads, sales people training and
+          conversions, tools and more — all within the same one
+          billing.
+        </p>
+      </div>
+
+      <h2 class="font-bold text-2xl text-gray-600">
+        2023.10.15(THUR) ~ 16(FRI)
+      </h2>
+      <p class="text-gray-600 text-base leading-6">
+        @Star performing Arts Center Kampala Uganda
+      </p>
+    </section>
+
+    <!--! MAIN PROGRAM -->
+    <section
+      class="main-program md:px-[10rem] md:py-[7rem] flex flex-col justify-between items-center gap-y-8 bg-primary-black px-[1rem] py-[4rem]"
+    >
+      <header
+        class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0"
+      >
+        <h2 class="text-2xl text-off-white font-medium">
+          Main Program
+        </h2>
+        <div class="w-[40px] h-[2px] bg-primary-orange mt-4"></div>
+      </header>
+
+      <!--* main programs wrapper -->
+      <div
+        class="main-programs-container flex flex-col md:flex-row md:mt-[2rem] md:gap-x-small justify-center items-center gap-y-4"
+      ></div>
+
+      <!--* button -->
+      <button
+        class="px-6 py-6 font-medium md:hidden bg-primary-orange text-off-white"
+      >
+        Join CC Global Summit 2022
+      </button>
+      <button
+        class="px-6 py-6 font-medium hidden cursor-pointer md:block md:underline md:mt-[1rem] text-off-white"
+      >
+        SEE THE WHOLE PROGRAM
+      </button>
+    </section>
+
+    <!--! FEATURED SPEAKERS -->
+    <section class="px-[1rem] py-[4rem] md:px-[5rem] md:py-[7rem] h-auto">
+      <header
+        class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0"
+      >
+        <h2 class="text-2xl text-primary-black font-medium">
+          Featured Speakers
+        </h2>
+        <div class="w-[40px] h-[2px] bg-primary-orange mt-4"></div>
+      </header>
+
+      <!--* featured speakers wrapper -->
+      <section
+        class="featured_speakers mt-[2rem] flex flex-col md:flex-row flex-wrap justify-between items-center gap-y-8 md:gap-[1rem] md:gap-y-[3rem]"
+      ></section>
+    </section>
+
+    <!--! PARTNERS -->
+    <section class="bg-primary-black px-[1.5rem] py-[4rem]">
+      <header
+        class="w-[100%] flex flex-col justify-between items-center h-auto gap-y-0"
+      >
+        <h2 class="text-2xl text-off-white font-medium">Partner</h2>
+        <div class="w-[40px] h-[2px] bg-primary-orange mt-4"></div>
+      </header>
+
+      <div
+        class="flex flex-col justify-center items-center gap-y-4 px-4 py-6 md:flex-row md:gap-x-[3rem]"
+      >
+        <div
+          class="flex justify-center items-center gap-x-4 md:gap-x-[4rem]"
+        >
+          <img
+            class="w-[100px] h-[30px] object-contain"
+            src="./img/partners/google.png"
+            alt="google"
+          />
+          <img
+            class="w-[100px] h-[30px] object-contain"
+            src="./img/partners/shopify.png"
+            alt="shopify"
+          />
+          <img
+            class="w-[100px] h-[30px] object-contain"
+            src="./img/partners/slack.png"
+            alt="shopify"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center gap-x-4 md:gap-x-[4rem]"
+        >
+          <img
+            class="w-[100px] h-[30px] object-contain"
+            src="./img/partners/coinbase.png"
+            alt="slack"
+          />
+          <img
+            class="w-[100px] h-[30px] object-contain"
+            src="./img/partners/dropbox.png"
+            alt="shopify"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--! FOOTER -->
+    <footer class="py-[4rem] px-[1.5rem] flex justify-between items-end md:px-[10rem] md:py-[4rem]">
+      <div class="font font-semibold">
+        <p>Mozilla dev summit <br> 2023</p>
+      </div>
+      <div>
+        <p>&copy; Dev team</p>
+        <p>All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="./js/navbar.js"></script>
+    <script src="./js/mainPrograms.js"></script>
+    <script src="./js/featuredSpeakers.js"></script>
+  </body>
+</html>
