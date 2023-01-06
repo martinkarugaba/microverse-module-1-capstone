@@ -115,6 +115,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+- The original design idea is by [Cindy Shin on Behance](https://www.behance.net/adagio07)
 - All icons in the main programs section were got from [flaticon.com](https://www.flaticon.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
